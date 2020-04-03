@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {    
+
+    .container {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .menu {
+        display: inline;
+    }
+
+    .cart {
+        display: inline;
+    }
+
+    .items-wrapper {
+        display: flex;
+    }
+
+}
+

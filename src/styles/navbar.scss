@@ -1,0 +1,35 @@
+nav {
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(00, 80, 80);
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgb(173, 173, 173);
+    z-index: 3;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 50vw;
+        z-index: 4;
+    
+    a {
+        margin-right: 20px;
+        color: rgb(119, 119, 119);
+        text-decoration: none;
+        letter-spacing: 2px;
+        transition: 0.1s;
+    }
+
+    
+    .active {
+            color: rgb(00, 80, 80);
+    }
+    
+    }
+
+    
+}
+
